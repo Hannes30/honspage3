@@ -3,11 +3,72 @@
   height: 50px;
 }
 .itemContainer {
+  position: absolute;
   display: flex;
   justify-content: center;
-
   background-color: #fff;
   width: min-content;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.6);
   border-radius: 50%;
   padding: 10px;
+}
+.itemContainer[class$="0"] {
+  left: 15%;
+  top: 15%;
+  animation: flyin0 1.9s ease forwards;
+}
+.itemContainer[class$="1"] {
+  right: 10%;
+  top: 55%;
+  animation: flyin1 1.6s ease forwards;
+}
+.itemContainer[class$="2"] {
+  left: 10%;
+  top: 65%;
+  animation: flyin2 2.2s ease forwards;
+}
+.itemContainer[class$="3"] {
+  right: 10%;
+  top: 10%;
+  animation: flyin3 2.4s ease forwards;
+}
+@keyframes flyin0 {
+  from {
+    top: -50%;
+    left: -10%;
+  }
+  to {
+    top: 15%;
+    left: 10%;
+  }
+}
+@keyframes flyin1 {
+  from {
+    top: 170%;
+    left: 190%;
+  }
+  to {
+    top: 55%;
+    left: 75%;
+  }
+}
+@keyframes flyin2 {
+  from {
+    top: 150%;
+    right: -30%;
+  }
+  to {
+    top: 65%;
+    right: 10%;
+  }
+}
+@keyframes flyin3 {
+  from {
+    top: -30%;
+    right: -90%;
+  }
+  to {
+    top: 10%;
+    right: 10%;
+  }
 }

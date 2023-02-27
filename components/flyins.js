@@ -15,13 +15,11 @@ const Flyins = () => {
       {items.items.map((item, index) => (
         <div
           key={index}
-          className={
-            styles.itemContainer + " " + styles.itemContainer + `${index}`
-          }
+          className={`${styles.itemContainer} ${styles.itemContainer}${index}`}
         >
           <img
             src={item.icon}
-            className={styles.itemImage + " " + styles.itemImage + `${index}`}
+            className={styles.itemImage}
             alt={`${item.alt}`}
           />
         </div>
