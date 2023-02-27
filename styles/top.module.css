@@ -1,0 +1,22 @@
+.heading {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.left {
+  width: 65%;
+  height: 101vh;
+}
+.right {
+  position: relative;
+  background: url("../public/src/bg1.jpg");
+  background-size: 100% 100%;
+  width: 35%;
+  height: 101vh;
+  min-width: 400px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

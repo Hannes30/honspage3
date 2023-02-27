@@ -1,0 +1,23 @@
+.heading {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.leftContainer {
+  margin: 4vw;
+  margin-left: 10vw;
+}
+.leftText {
+  font-weight: 500;
+  margin-top: 70px;
+  font-size: 36px;
+  line-height: 20px;
+}
+.leftWrite {
+  color: #0c8;
+}
+@media only screen and (max-width: 1159px) {
+  .leftContainer {
+    margin: 2vw;
+  }
+}
