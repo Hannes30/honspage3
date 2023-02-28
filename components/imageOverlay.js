@@ -6,12 +6,7 @@ const ImageOverlay = () => {
   return (
     <>
       <Link href={"./"}>
-        <Image
-          src="/images/bg1-overlay.png"
-          width="1000"
-          height="1000"
-          className={styles.image}
-        ></Image>
+        <div className={styles.image}></div>
       </Link>
     </>
   );

@@ -1,0 +1,43 @@
+.main {
+  background-color: #eee;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 5vw;
+  padding-bottom: 2vw;
+  min-height: 80vh;
+}
+.left {
+  margin-left: 4vw;
+  margin-top: 4vw;
+  margin-right: 0;
+  width: 60%;
+}
+.heading {
+  font-size: 60px;
+  color: #0c8;
+  font-weight: 600;
+  width: max-content;
+  padding: 10px;
+  border-bottom: #0c8 1px solid;
+  margin-bottom: 1vw;
+}
+.text {
+  font-size: 24px;
+  line-height: 35px;
+}
+.right {
+  width: 35%;
+}
+@media only screen and (max-width: 1159px) {
+  .left {
+    width: 100%;
+  }
+  .right {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

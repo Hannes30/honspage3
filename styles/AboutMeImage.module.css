@@ -1,0 +1,37 @@
+.main {
+  position: relative;
+  left: 2vw;
+}
+.image {
+  border-radius: 5px;
+  position: relative;
+  background-color: #ab81e9;
+  padding: 0px 35px;
+  z-index: 2;
+  box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.3);
+}
+.imageBackground {
+  border-radius: 5px;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+  position: absolute;
+  background-color: #0c8;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.62);
+}
+@media only screen and (max-width: 1159px) {
+  .main {
+    left: 0vw;
+    margin-bottom: 15px;
+  }
+  .image {
+    width: 350px;
+    height: 325px;
+  }
+  .imageBackground {
+    width: 415px;
+    height: 320px;
+  }
+}

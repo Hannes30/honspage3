@@ -1,7 +1,7 @@
 .heading {
-  font-size: 64px;
+  font-size: 7vw;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 8vw;
 }
 .leftContainer {
   margin: 4vw;
@@ -9,8 +9,8 @@
 }
 .leftText {
   font-weight: 500;
-  margin-top: 70px;
-  font-size: 36px;
+  margin-top: 2vw;
+  font-size: 3vw;
   line-height: 20px;
 }
 .leftWrite {

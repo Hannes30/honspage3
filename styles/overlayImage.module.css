@@ -1,9 +1,14 @@
 .image {
+  overflow: hidden;
+  position: relative;
+  background: url("../public/images/bg1-overlay.png");
+  background-size: cover;
+  background-position: 50%;
   width: 100%;
-  height: 100%;
   opacity: 0;
-  transform: scale(1);
-  transition: opacity 0.5s;
+  height: 101vh;
+  min-width: 400px;
+  transition: opacity 1s;
 }
 .image:hover {
   opacity: 1;

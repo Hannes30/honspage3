@@ -5,18 +5,19 @@
 }
 .left {
   width: 65%;
-  height: 101vh;
 }
 .right {
   overflow: hidden;
   position: relative;
   background: url("../public/images/bg1.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 50%;
   width: 35%;
   height: 101vh;
   min-width: 400px;
 }
 .main {
+  min-height: 101vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

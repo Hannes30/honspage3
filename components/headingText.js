@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/heading.module.css";
 import { useState, useEffect } from "react";
-import TypeWriter from "./typeWriter";
 
 const HeadingText = () => {
   return (
