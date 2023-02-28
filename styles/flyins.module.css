@@ -15,12 +15,12 @@
 .itemContainer[class$="0"] {
   left: 15%;
   top: 15%;
-  animation: flyin0 1.9s ease forwards;
+  animation: flyin0 1.7s ease forwards;
 }
 .itemContainer[class$="1"] {
   right: 10%;
   top: 55%;
-  animation: flyin1 1.6s ease forwards;
+  animation: flyin1 1s ease forwards;
 }
 .itemContainer[class$="2"] {
   left: 10%;
@@ -30,7 +30,7 @@
 .itemContainer[class$="3"] {
   right: 10%;
   top: 10%;
-  animation: flyin3 2.4s ease forwards;
+  animation: flyin3 3s ease forwards;
 }
 @keyframes flyin0 {
   from {
