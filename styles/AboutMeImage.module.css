@@ -1,11 +1,13 @@
 .main {
   position: relative;
-  left: 2vw;
+  margin-left: 1vw;
+  margin-top: 35px;
 }
 .image {
   border-radius: 5px;
   position: relative;
   background-color: #ab81e9;
+  background: radial-gradient(#fff, #ab81e9);
   padding: 0px 35px;
   z-index: 2;
   box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.3);
@@ -17,10 +19,35 @@
   z-index: 1;
   position: absolute;
   background-color: #0c8;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.62);
 }
+.icon {
+  left: 25%;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+  transition: top 1s, left 1s, tranform 1s;
+}
+.icon0 {
+  position: absolute;
+  top: -50px;
+  left: -15%;
+  transform: rotateZ(-25deg);
+}
+.icon1 {
+  position: absolute;
+  top: -110px;
+  left: 30%;
+}
+.icon2 {
+  position: absolute;
+  top: -50px;
+  left: 75%;
+  transform: rotateZ(25deg);
+}
+
 @media only screen and (max-width: 1159px) {
   .main {
     left: 0vw;
@@ -33,5 +60,15 @@
   .imageBackground {
     width: 415px;
     height: 320px;
+  }
+}
+@keyframes flyin0 {
+  0% {
+    top: 0px;
+    left: 0%;
+  }
+  100% {
+    top: -50px;
+    left: -15%;
   }
 }

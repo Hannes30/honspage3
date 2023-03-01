@@ -1,5 +1,4 @@
 .main {
-  background-color: #eee;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -9,10 +8,13 @@
   min-height: 80vh;
 }
 .left {
-  margin-left: 4vw;
+  margin-left: 2vw;
+  background-color: #eee;
+  padding: 2vw;
+  border-radius: 20px;
   margin-top: 4vw;
   margin-right: 0;
-  width: 60%;
+  width: 55%;
 }
 .heading {
   font-size: 60px;
@@ -28,6 +30,7 @@
   line-height: 35px;
 }
 .right {
+  position: relative;
   width: 35%;
 }
 @media only screen and (max-width: 1159px) {
@@ -39,5 +42,11 @@
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+}
+@media (max-width: 1400px) {
+  .text {
+    font-size: 20px;
+    line-height: 25px;
   }
 }

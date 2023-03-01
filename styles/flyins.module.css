@@ -15,22 +15,22 @@
 .itemContainer[class$="0"] {
   left: 15%;
   top: 15%;
-  animation: flyin0 1.7s linear, move0 10s infinite 3s;
+  animation: flyin0 1.7s ease-out, move0 10s infinite 1.7s linear;
 }
 .itemContainer[class$="1"] {
   right: 10%;
   top: 55%;
-  animation: flyin1 1s linear, move1 10s infinite 3s;
+  animation: flyin1 1s ease-out, move1 10s infinite 1s linear;
 }
 .itemContainer[class$="2"] {
   left: 10%;
   top: 65%;
-  animation: flyin2 2.2s linear, move2 10s infinite 3s;
+  animation: flyin2 2.2s ease-out, move2 10s infinite 2.2s linear;
 }
 .itemContainer[class$="3"] {
   right: 10%;
   top: 10%;
-  animation: flyin3 3s linear, move3 10s infinite 3s;
+  animation: flyin3 3s ease-out, move3 10s infinite 3s linear;
 }
 @keyframes flyin0 {
   from {
@@ -74,7 +74,7 @@
 }
 @keyframes move0 {
   0% {
-    transform: translate(0, 0);
+    transform: translate(0px, px);
   }
   25% {
     transform: translate(3px, 3px);
@@ -86,7 +86,7 @@
     transform: translate(3px, -3px);
   }
   100% {
-    transform: translate(0, 0);
+    transform: translate(0px, 0px);
   }
 }
 
