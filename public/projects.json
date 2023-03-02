@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "DoDo",
-      "description": "lorem",
+      "description": "DoDo is a ToDo website where users can create an account and enter their ToDos. This project was my first practical application of React.js.",
       "img": "/images/dodo.png"
     },
     {

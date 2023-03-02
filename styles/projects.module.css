@@ -4,23 +4,34 @@
   overflow-y: hidden;
 }
 .mainCard {
+  position: relative;
   background-color: #fff;
   width: 400px;
   box-shadow: 0px 0px 37px -11px rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-}
-.active {
-  transform: scale(1);
   transition: transform 1s;
 }
+
+.active[class$="0"] {
+  background-color: aqua;
+}
 .textArea {
+  font-size: 18px;
+  line-height: 25px;
   margin: 10px;
+  margin-bottom: 40px;
+  width: 80%;
 }
 .inactive {
   transform: scale(0.8);
+  transition: opacity 0.2s, transform 0.5s;
   opacity: 0.7;
 }
 .inactive:hover {
+  opacity: 0.9;
+}
+.inactive:hover {
+  transform: scale(0.85);
   cursor: pointer;
 }
 .cardImage {
@@ -37,11 +48,30 @@
   font-size: 64px;
   font-weight: 600;
   color: #0c8;
+  margin-bottom: 30px;
 }
 .title {
   font-size: 48px;
   font-weight: 600;
+  margin: 10px;
   color: #0c8;
+}
+.button {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
+  background-color: #0c8;
+  right: 0;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: bottom 0.25s;
+}
+.button:hover {
+  bottom: 4px;
 }
 @media only screen and (max-width: 600px) {
   .heading {
