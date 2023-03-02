@@ -7,7 +7,6 @@
   width: 100%;
   opacity: 0;
   height: 101vh;
-  min-width: 400px;
   transition: opacity 1s;
 }
 .image:hover {

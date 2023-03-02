@@ -40,6 +40,7 @@ const AboutMeImage = () => {
           width="330"
           height="300"
           className={styles.image}
+          alt="Iamge of Hannes Scheibelauer"
         />
         <div className={styles.imageBackground} />
         <div className={styles.icons}>
@@ -49,6 +50,7 @@ const AboutMeImage = () => {
             height="80"
             className={`${styles.icon} ${isVisible ? styles.icon0 : ""}`}
             ref={ref}
+            alt="icon of laptop"
           />
           <Image
             src="/images/camera.png"
@@ -56,6 +58,7 @@ const AboutMeImage = () => {
             height="80"
             className={`${styles.icon} ${isVisible ? styles.icon1 : ""}`}
             ref={ref}
+            alt="icon of camera"
           />
           <Image
             src="/images/smartphone.png"
@@ -63,6 +66,7 @@ const AboutMeImage = () => {
             height="80"
             className={`${styles.icon} ${isVisible ? styles.icon2 : ""}`}
             ref={ref}
+            alt="icon of smartphone"
           />
         </div>
       </div>

@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "DoDo",
+      "description": "lorem",
+      "img": "/images/dodo.png"
+    },
+    {
+      "name": "BudgetBooster",
+      "description": "lorem",
+      "img": "/images/bb.jpg"
+    },
+    {
+      "name": "Furt",
+      "description": "lorem",
+      "img": "/images/furt.png"
+    }
+  ]
+}

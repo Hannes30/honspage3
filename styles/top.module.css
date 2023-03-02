@@ -14,11 +14,16 @@
   background-position: 50%;
   width: 35%;
   height: 101vh;
-  min-width: 400px;
 }
 .main {
   min-height: 101vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow-y: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .right {
+    width: 100%;
+  }
 }

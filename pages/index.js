@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import Top from "@/components/top";
 import About from "@/components/about";
+import Projects from "@/components/projects";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       </CustomHead>
       <Top />
       <About />
+      <Projects />
     </>
   );
 }
