@@ -37,11 +37,12 @@
 .cardImage {
   width: 100%;
   border-radius: 5px 5px 0px 0px;
+  height: 200px;
 }
 .mainCards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .heading {
   text-align: center;
@@ -81,5 +82,13 @@
 @media only screen and (max-width: 800px) {
   .mainCard {
     background-color: #eee;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mainCard {
+    width: 500px;
+  }
+  .cardImage {
+    height: 250px;
   }
 }
