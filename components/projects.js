@@ -5,7 +5,6 @@ import Project from "./project";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(1);
-  console.log(active);
 
   useEffect(() => {
     async function fetchData() {
@@ -32,6 +31,7 @@ const Projects = () => {
               img={item.img}
               cb={setActive}
               value={index}
+              icons={item.icons}
             >
               {item.description}
             </Project>

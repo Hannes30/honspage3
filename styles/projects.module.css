@@ -9,12 +9,10 @@
   width: 400px;
   box-shadow: 0px 0px 37px -11px rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-  transition: transform 1s;
+  transition: transform 1s, background-color 0.5s, box-shadow 0.5s;
+  z-index: 4;
 }
 
-.active[class$="0"] {
-  background-color: aqua;
-}
 .textArea {
   font-size: 18px;
   line-height: 25px;
@@ -22,22 +20,26 @@
   margin-bottom: 40px;
   width: 80%;
 }
+
 .inactive {
   transform: scale(0.8);
   transition: opacity 0.2s, transform 0.5s;
   opacity: 0.7;
+  z-index: 2;
 }
 .inactive:hover {
   opacity: 0.9;
 }
 .inactive:hover {
-  transform: scale(0.85);
+  transform: scale(0.82);
   cursor: pointer;
 }
 .cardImage {
+  position: relative;
   width: 100%;
   border-radius: 5px 5px 0px 0px;
   height: 200px;
+  z-index: 4;
 }
 .mainCards {
   display: flex;
@@ -74,14 +76,52 @@
 .button:hover {
   bottom: 4px;
 }
-@media only screen and (max-width: 600px) {
-  .heading {
-    font-size: 40px;
-  }
+.dodo {
+  background: radial-gradient(#81e9ba, #44f2b8);
+  box-shadow: 0px 0px 38px -6px rgba(0, 204, 136, 1);
 }
+.bb {
+  background: radial-gradient(#e9d981, #f2d844);
+  box-shadow: 0px 0px 38px -6px rgba(180, 204, 2, 0.973);
+}
+.furt {
+  background: radial-gradient(#ecba4e, #f244d8);
+  box-shadow: 0px 0px 38px -6px rgb(255, 0, 187);
+}
+
+.icon1 {
+  left: -100px;
+  top: -20px;
+}
+.icon2 {
+  left: 500px;
+  transform: rotateZ(35deg);
+  top: 50px;
+}
+.icon {
+  left: 25%;
+  top: 25%;
+}
+.iconGeneral {
+  position: absolute;
+  transition: top 0.5s, left 0.5s, transform 0.6s;
+  z-index: 3;
+}
+
 @media only screen and (max-width: 800px) {
   .mainCard {
     background-color: #eee;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .icon1 {
+    left: -50px;
+    top: -20px;
+  }
+  .icon2 {
+    left: 400px;
+    transform: rotateZ(35deg);
+    top: 50px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -90,5 +130,22 @@
   }
   .cardImage {
     height: 250px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 36px;
+  }
+  .mainCard {
+    width: 70vw;
+  }
+  .cardImage {
+    height: 30vw;
+  }
+  .icon1 {
+    display: none;
+  }
+  .icon2 {
+    display: none;
   }
 }

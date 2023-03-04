@@ -3,17 +3,20 @@
     {
       "name": "DoDo",
       "description": "DoDo is a ToDo website where users can create an account and enter their ToDos. This project was my first practical application of React.js.",
-      "img": "/images/dodo.png"
+      "img": "/images/dodo.png",
+      "icons": ["/images/icons/dodo1.png", "/images/icons/dodo2.png"]
     },
     {
       "name": "BudgetBooster",
-      "description": "lorem",
-      "img": "/images/bb.jpg"
+      "description": "BudgetBooster, a game I developed using Next.js, is hosted on our own server. It teaches teenagers about wise financial decisions through a fun and engaging gameplay.",
+      "img": "/images/bb.jpg",
+      "icons": ["/images/icons/bb1.png", "/images/icons/bb2.png"]
     },
     {
       "name": "Furt",
-      "description": "lorem",
-      "img": "/images/furt.png"
+      "description": "Furt ist a Mobiel Game about Colors. The Player has to Shoot the color in the right area and avoid obstacels. The Game is made with Unity and runs on Android",
+      "img": "/images/furt.png",
+      "icons": ["/images/icons/furt1.png", "/images/icons/furt2.png"]
     }
   ]
 }

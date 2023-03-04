@@ -45,7 +45,7 @@ const AboutMeImage = () => {
         <div className={styles.imageBackground} />
         <div className={styles.icons}>
           <Image
-            src="/images/Laptop.png"
+            src="/images/icons/Laptop.png"
             width="80"
             height="80"
             className={`${styles.icon} ${isVisible ? styles.icon0 : ""}`}
@@ -53,7 +53,7 @@ const AboutMeImage = () => {
             alt="icon of laptop"
           />
           <Image
-            src="/images/camera.png"
+            src="/images/icons/camera.png"
             width="80"
             height="80"
             className={`${styles.icon} ${isVisible ? styles.icon1 : ""}`}
@@ -61,7 +61,7 @@ const AboutMeImage = () => {
             alt="icon of camera"
           />
           <Image
-            src="/images/smartphone.png"
+            src="/images/icons/smartphone.png"
             width="80"
             height="80"
             className={`${styles.icon} ${isVisible ? styles.icon2 : ""}`}
