@@ -1,16 +1,28 @@
 import styles from "@/styles/flyins.module.css";
+import { useEffect, useState } from "react";
 
 const Flyins = () => {
   let random = 0;
-
-  const items = {
+  const [items, setItems] = useState({
+    items: [{ icon: "/images/logos/ReactLogo.png", alt: "React icon" }],
+  });
+  const options = {
     items: [
       { icon: "/images/logos/ReactLogo.png", alt: "React icon" },
       { icon: "/images/logos/FlutterLogo.png", alt: "Flutter icon" },
       { icon: "/images/logos/PSLogo.png", alt: "Photoshop Logo" },
       { icon: "/images/logos/UnityLogo.png", alt: "Unity Logo" },
+      { icon: "/images/logos/CLogo.png", alt: "C Logo" },
+      { icon: "/images/logos/NextjsLogo.png", alt: "Next.js Logo" },
+      { icon: "/images/logos/BlenderLogo.png", alt: "Blender Logo" },
     ],
   };
+  useEffect(() => {
+    const randomItems = options.items
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 4);
+    setItems({ items: randomItems });
+  }, []);
 
   let multiplier = 10;
   const divStyles = [

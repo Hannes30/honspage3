@@ -4,19 +4,61 @@
       "name": "DoDo",
       "description": "DoDo is a ToDo website where users can create an account and enter their ToDos. This project was my first practical application of React.js.",
       "img": "/images/dodo.png",
-      "icons": ["/images/icons/dodo1.png", "/images/icons/dodo2.png"]
+      "icons": ["/images/icons/dodo1.png", "/images/icons/dodo2.png"],
+      "backgroundColor1": "#81e9ba",
+      "backgroundColor2": "#44f2b8",
+      "usedTechnologies": [
+        {
+          "name": "React",
+          "icon": "/images/logos/ReactLogo.png",
+          "description": "React ist sehr cool und ich habe es verwendet um die einzelnen ToDo zu rendern"
+        },
+        {
+          "name": "MySql",
+          "icon": "/images/logos/MySqlLogo.png",
+          "description": "MySql ist sehr cool und ich habe es verwendet um die User zu speichern"
+        }
+      ]
     },
     {
       "name": "BudgetBooster",
-      "description": "BudgetBooster, a game I developed using Next.js, is hosted on our own server. It teaches teenagers about wise financial decisions through a fun and engaging gameplay.",
+      "description": "BudgetBooster is a game I developed using Next.js, is hosted on our own server. It teaches teenagers about wise financial decisions through a fun and engaging gameplay.",
       "img": "/images/bb.jpg",
-      "icons": ["/images/icons/bb1.png", "/images/icons/bb2.png"]
+      "icons": ["/images/icons/bb1.png", "/images/icons/bb2.png"],
+      "backgroundColor1": "#e9d981",
+      "backgroundColor2": "#f2d844",
+      "usedTechnologies": [
+        {
+          "name": "React",
+          "icon": "/images/logos/ReactLogo.png",
+          "description": "React ist sehr cool und ich habe es verwendet um die einzelnen ToDo zu rendern"
+        },
+        {
+          "name": "MySql",
+          "icon": "/images/logos/MySqlLogo.png",
+          "description": "MySql ist sehr cool und ich habe es verwendet um die User zu speichern"
+        }
+      ]
     },
     {
       "name": "Furt",
       "description": "Furt ist a Mobiel Game about Colors. The Player has to Shoot the color in the right area and avoid obstacels. The Game is made with Unity and runs on Android",
       "img": "/images/furt.png",
-      "icons": ["/images/icons/furt1.png", "/images/icons/furt2.png"]
+      "icons": ["/images/icons/furt1.png", "/images/icons/furt2.png"],
+      "backgroundColor1": "#f244d8",
+      "backgroundColor2": "#ecba4e",
+      "usedTechnologies": [
+        {
+          "name": "React",
+          "icon": "/images/logos/ReactLogo.png",
+          "description": "React ist sehr cool und ich habe es verwendet um die einzelnen ToDo zu rendern"
+        },
+        {
+          "name": "MySql",
+          "icon": "/images/logos/MySqlLogo.png",
+          "description": "MySql ist sehr cool und ich habe es verwendet um die User zu speichern"
+        }
+      ]
     }
   ]
 }

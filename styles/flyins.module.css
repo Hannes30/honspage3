@@ -12,4 +12,18 @@
   border-radius: 50%;
   padding: 10px;
   transition: left 1s, top 1s;
+  animation: fly-in 1s ease-out forwards;
+}
+.flyin{
+  animation: fly-in 1s ease-out forwards;
+}
+@keyframes fly-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
