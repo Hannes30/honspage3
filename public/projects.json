@@ -22,8 +22,15 @@
           "name": "MySql",
           "icon": "/images/logos/MySqlLogo.png",
           "description": "By utilizing MySql as the database to store user data and task information, it greatly assisted me in the development of a todo platform."
+        },
+        {
+          "name": "Heroku",
+          "icon": "/images/logos/HerokuLogo.png",
+          "description": "Heroku was instrumental in hosting both the node.js app and backend application for me.."
         }
-      ]
+      ],
+      "emergence": "I have recently begun learning React, and I decided to create my own ToDo platform to aid my learning process. Although building a ToDo platform is a common project for new React programmers, I challenged myself by incorporating User Management functionality into it",
+      "result": "A ToDo Website run on Heruko but currently inactive"
     },
     {
       "name": "BudgetBooster",
@@ -48,7 +55,9 @@
           "icon": "/images/logos/MySqlLogo.png",
           "description": "For storing the stats of my players, I relied on MySql as my preferred database solution, which proved to be a reliable and efficient choice."
         }
-      ]
+      ],
+      "emergence": "A teacher at my school introduced me to the Kardea Price project, which focuses on teenagers and money management. This sparked an idea for a game where the user can practice managing their spending habits.",
+      "result": "A Website where Player can play the Game and Learn about Money"
     },
     {
       "name": "Furt",
@@ -68,7 +77,9 @@
           "icon": "/images/logos/PSLogo.png",
           "description": "With Photoshop, I was able to create all of the necessary assets for my games."
         }
-      ]
+      ],
+      "emergence": "I had some free time and decided to create a mobile game. While I had prior knowledge of Unity, I had never developed a mobile game before. Since I wanted to create a game based on colors, I began programming.",
+      "result": "A Mobie Game Called FURT for Android"
     }
   ]
 }

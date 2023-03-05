@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.heading {
+  width: 100vw;
+  text-align: center;
+  font-size: calc(24px + 3vw);
+  font-weight: 500;
+}

@@ -1,7 +1,6 @@
 .heading {
-  font-size: 7vw;
+  font-size: calc(40px + 3vw);
   font-weight: 700;
-  line-height: 8vw;
 }
 .leftContainer {
   margin: 4vw;
@@ -10,7 +9,7 @@
 .leftText {
   font-weight: 500;
   margin-top: 2vw;
-  font-size: 3vw;
+  font-size: calc(20px + 2vw);
   line-height: 20px;
 }
 .leftWrite {
@@ -18,6 +17,6 @@
 }
 @media only screen and (max-width: 1159px) {
   .leftContainer {
-    margin: 2vw;
+    margin: 0;
   }
 }

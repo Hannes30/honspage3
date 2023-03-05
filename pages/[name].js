@@ -6,6 +6,7 @@ import styles from "@/styles/projectsPage.module.css";
 import Top from "@/components/projectsTop";
 import CustomHead from "@/components/customHead";
 import Stats from "@/components/projectStats";
+import Description from "@/components/ProjectDescription";
 
 export default function ProjectPage({ project }) {
   return (
@@ -18,6 +19,7 @@ export default function ProjectPage({ project }) {
       <div className={styles.main}>
         <Top project={project} />
         <Stats stats={project.usedTechnologies} />
+        <Description project={project} />
       </div>
     </>
   );

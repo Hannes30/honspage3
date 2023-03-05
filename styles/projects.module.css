@@ -73,7 +73,7 @@
   transition: bottom 0.25s;
 }
 .button:hover {
-  bottom: 4px;
+  bottom: 2px;
 }
 .dodo {
   background: radial-gradient(#81e9ba, #44f2b8);
