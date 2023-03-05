@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "@/styles/projectsPage.module.css";
 import Top from "@/components/projectsTop";
 import CustomHead from "@/components/customHead";
+import Stats from "@/components/projectStats";
 
 export default function ProjectPage({ project }) {
   return (
@@ -16,7 +17,7 @@ export default function ProjectPage({ project }) {
       </CustomHead>
       <div className={styles.main}>
         <Top project={project} />
-        
+        <Stats stats={project.usedTechnologies} />
       </div>
     </>
   );

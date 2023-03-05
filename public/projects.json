@@ -11,12 +11,17 @@
         {
           "name": "React",
           "icon": "/images/logos/ReactLogo.png",
-          "description": "React ist sehr cool und ich habe es verwendet um die einzelnen ToDo zu rendern"
+          "description": "Using React for the front-end of my website allowed me to efficiently structure my code and develop with greater speed."
+        },
+        {
+          "name": "Node.js",
+          "icon": "/images/logos/NodeLogo.png",
+          "description": "The combination of Node.js and Express.js enabled me to seamlessly transfer data from the front-end to the back-end."
         },
         {
           "name": "MySql",
           "icon": "/images/logos/MySqlLogo.png",
-          "description": "MySql ist sehr cool und ich habe es verwendet um die User zu speichern"
+          "description": "By utilizing MySql as the database to store user data and task information, it greatly assisted me in the development of a todo platform."
         }
       ]
     },
@@ -29,14 +34,19 @@
       "backgroundColor2": "#f2d844",
       "usedTechnologies": [
         {
-          "name": "React",
-          "icon": "/images/logos/ReactLogo.png",
-          "description": "React ist sehr cool und ich habe es verwendet um die einzelnen ToDo zu rendern"
+          "name": "Next.js",
+          "icon": "/images/logos/nextjsLogo.png",
+          "description": "Next.js proved to be the perfect solution for enabling efficient communication between the front-end and back-end during the development of my app, allowing me to work with greater speed and productivity."
+        },
+        {
+          "name": "Chart.js",
+          "icon": "/images/logos/chartjsLogo.png",
+          "description": "Chart Js helped me to visualize the Data i got from my Players.It was easy to leran and use."
         },
         {
           "name": "MySql",
           "icon": "/images/logos/MySqlLogo.png",
-          "description": "MySql ist sehr cool und ich habe es verwendet um die User zu speichern"
+          "description": "For storing the stats of my players, I relied on MySql as my preferred database solution, which proved to be a reliable and efficient choice."
         }
       ]
     },
@@ -49,14 +59,14 @@
       "backgroundColor2": "#ecba4e",
       "usedTechnologies": [
         {
-          "name": "React",
-          "icon": "/images/logos/ReactLogo.png",
-          "description": "React ist sehr cool und ich habe es verwendet um die einzelnen ToDo zu rendern"
+          "name": "Unity",
+          "icon": "/images/logos/UnityLogo.png",
+          "description": "Unity is my preferred game engine for programming games, thanks to its built-in mobile support that made it a perfect fit for creating my mobile game."
         },
         {
-          "name": "MySql",
-          "icon": "/images/logos/MySqlLogo.png",
-          "description": "MySql ist sehr cool und ich habe es verwendet um die User zu speichern"
+          "name": "Photoshop",
+          "icon": "/images/logos/PSLogo.png",
+          "description": "With Photoshop, I was able to create all of the necessary assets for my games."
         }
       ]
     }

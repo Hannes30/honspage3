@@ -1,11 +1,12 @@
 import styles from "@/styles/projectsPage.module.css";
+import Link from "next/link";
 
 const Top = ({ project }) => {
   const imgDiv = {
     backgroundImage: `url(${project.img})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundPosition: "40% 40%",
+    backgroundPosition: "50% 0%",
     height: "100%",
     width: "60vw",
   };
@@ -15,7 +16,8 @@ const Top = ({ project }) => {
   return (
     <>
       <div className={styles.top} style={imgDivParent}>
-        <div style={imgDiv} className={styles.imageTop}></div>
+        <Link href={project.img} style={imgDiv} className={styles.imageTop}>
+        </Link>
       </div>
       <div className={styles.textTop}>
         <div className={styles.heading}>{project.name}</div>
