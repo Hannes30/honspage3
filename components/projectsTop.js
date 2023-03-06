@@ -1,7 +1,7 @@
 import styles from "@/styles/projectsPage.module.css";
 import Link from "next/link";
 import Image from "next/image";
-const Top = ({ project }) => {
+const ProjectTop = ({ project }) => {
   const imgDiv = {
     backgroundImage: `url(${project.img})`,
     backgroundRepeat: "no-repeat",
@@ -44,4 +44,4 @@ const Top = ({ project }) => {
   );
 };
 
-export default Top;
+export default ProjectTop;

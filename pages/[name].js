@@ -3,10 +3,10 @@ import { useRouter } from "next/router";
 import projects from "../public/projects.json";
 import Image from "next/image";
 import styles from "@/styles/projectsPage.module.css";
-import Top from "@/components/projectsTop";
+import ProjectTop from "@/components/projectsTop";
 import CustomHead from "@/components/customHead";
 import Stats from "@/components/projectStats";
-import Description from "@/components/projectDescription";
+import Description from "@/components/description";
 
 export default function ProjectPage({ project }) {
   return (
@@ -17,7 +17,7 @@ export default function ProjectPage({ project }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </CustomHead>
       <div className={styles.main}>
-        <Top project={project} />
+        <ProjectTop project={project} />
         <Stats stats={project.usedTechnologies} />
         <Description project={project} />
       </div>
