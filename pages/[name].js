@@ -6,7 +6,7 @@ import styles from "@/styles/projectsPage.module.css";
 import Top from "@/components/projectsTop";
 import CustomHead from "@/components/customHead";
 import Stats from "@/components/projectStats";
-import Description from "@/components/ProjectDescription";
+import Description from "@/components/projectDescription";
 
 export default function ProjectPage({ project }) {
   return (

@@ -1,12 +1,33 @@
 .main {
+  position: relative;
+  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 100px;
+  margin-bottom: 0px;
+  font-size: calc(14px + 1vw);
+  line-height: calc(20px + 1vw);
 }
 .heading {
-  width: 100vw;
+  margin-top: 50px;
+  color: #000;
+  width: 100%;
   text-align: center;
   font-size: calc(24px + 3vw);
   font-weight: 500;
+  margin-bottom: 50px;
+}
+.image {
+  width: 60vw;
+  height: auto;
+  margin: 100px;
+  box-shadow: 0px 10px 38px -1px rgba(0, 0, 0, 0.65);
+}
+.link {
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+  color: #0c8;
 }

@@ -37,7 +37,7 @@ const AboutMeImage = () => {
       <div className={styles.main}>
         <Image
           src="/images/about-image-Hannes.png"
-          width="330"
+          width="300"
           height="300"
           className={styles.image}
           alt="Iamge of Hannes Scheibelauer"

@@ -30,7 +30,9 @@
         }
       ],
       "emergence": "I have recently begun learning React, and I decided to create my own ToDo platform to aid my learning process. Although building a ToDo platform is a common project for new React programmers, I challenged myself by incorporating User Management functionality into it",
-      "result": "A ToDo Website run on Heruko but currently inactive"
+      "result": "A ToDo Website run on Heruko but currently inactive",
+      "link": "https://github.com/Hannes30/to-do",
+      "linkName": "Github"
     },
     {
       "name": "BudgetBooster",
@@ -57,11 +59,13 @@
         }
       ],
       "emergence": "A teacher at my school introduced me to the Kardea Price project, which focuses on teenagers and money management. This sparked an idea for a game where the user can practice managing their spending habits.",
-      "result": "A Website where Player can play the Game and Learn about Money"
+      "result": "A Website where Player can play the Game and Learn about Money",
+      "link": "https://budget-booster.vitreus.at/",
+      "linkName": "BudgetBooster"
     },
     {
       "name": "Furt",
-      "description": "Furt ist a Mobiel Game about Colors. The Player has to Shoot the color in the right area and avoid obstacels. The Game is made with Unity and runs on Android",
+      "description": "Furt is a Mobiel Game about Colors. The Player has to Shoot the color in the right area and avoid obstacels. The Game is made with Unity and runs on Android",
       "img": "/images/furt.png",
       "icons": ["/images/icons/furt1.png", "/images/icons/furt2.png"],
       "backgroundColor1": "#f244d8",
@@ -79,7 +83,9 @@
         }
       ],
       "emergence": "I had some free time and decided to create a mobile game. While I had prior knowledge of Unity, I had never developed a mobile game before. Since I wanted to create a game based on colors, I began programming.",
-      "result": "A Mobie Game Called FURT for Android"
+      "result": "A Mobie Game Called FURT for Android",
+      "link": "https://mega.nz/file/BQIQDaCA#2BB5DcKipsTNz0WgulyojwGsuiVGMQVDQ81VsAE02hA",
+      "linkName": "Download"
     }
   ]
 }

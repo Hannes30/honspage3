@@ -1,6 +1,6 @@
 import styles from "@/styles/projectsPage.module.css";
 import Link from "next/link";
-
+import Image from "next/image";
 const Top = ({ project }) => {
   const imgDiv = {
     backgroundImage: `url(${project.img})`,
@@ -16,14 +16,29 @@ const Top = ({ project }) => {
   return (
     <>
       <div className={styles.top} style={imgDivParent}>
-        <Link href={project.img} style={imgDiv} className={styles.imageTop}>
-        </Link>
+        <Link
+          href={project.img}
+          style={imgDiv}
+          className={styles.imageTop}
+        ></Link>
       </div>
       <div className={styles.textTop}>
         <div className={styles.heading}>{project.name}</div>
+        <Image
+          src={project.icons[0]}
+          width="100"
+          height="100"
+          alt="Icon 1"
+        ></Image>
         <div className={styles.shortDescription + " " + styles.flyin}>
           {project.description}
         </div>
+        <Image
+          src={project.icons[1]}
+          width="100"
+          height="100"
+          alt="Icon 1"
+        ></Image>
       </div>
     </>
   );

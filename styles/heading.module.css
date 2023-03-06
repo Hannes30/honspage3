@@ -1,15 +1,17 @@
 .heading {
+  color: #000;
   font-size: calc(40px + 3vw);
   font-weight: 700;
 }
 .leftContainer {
+  color: #333;
   margin: 4vw;
   margin-left: 10vw;
 }
 .leftText {
   font-weight: 500;
   margin-top: 2vw;
-  font-size: calc(20px + 2vw);
+  font-size: calc(14px + 1vw);
   line-height: 20px;
 }
 .leftWrite {

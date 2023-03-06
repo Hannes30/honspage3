@@ -26,7 +26,7 @@
   margin-bottom: 1vw;
 }
 .text {
-  font-size: 24px;
+  font-size: calc(14px + 1vw);
   line-height: 35px;
 }
 .right {
