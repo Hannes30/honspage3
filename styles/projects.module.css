@@ -56,8 +56,9 @@
 .title {
   font-size: 48px;
   font-weight: 600;
-  margin: 10px;
-  color: #0c8;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #000;
 }
 .button {
   position: absolute;

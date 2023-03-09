@@ -6,23 +6,12 @@
 .image {
   border-radius: 5px;
   position: relative;
-  background-color: #ab81e9;
-  background: radial-gradient(#fff, #ab81e9);
+  background: radial-gradient(#ffffff, #0c8);
   padding: 0px 35px;
   z-index: 2;
   box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.3);
 }
-.imageBackground {
-  border-radius: 5px;
-  top: 25px;
-  left: 25px;
-  z-index: 1;
-  position: absolute;
-  background-color: #0c8;
-  width: 400px;
-  height: 300px;
-  box-shadow: 0px 0px 18px 5px rgba(0, 0, 0, 0.62);
-}
+
 .icon {
   left: 25%;
   position: absolute;
