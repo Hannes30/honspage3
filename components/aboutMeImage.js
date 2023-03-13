@@ -37,38 +37,12 @@ const AboutMeImage = () => {
       <div className={styles.main}>
         <Image
           src="/images/about-image-Hannes.png"
-          width="300"
-          height="300"
+          width="400"
+          height="400"
           className={styles.image}
           alt="Iamge of Hannes Scheibelauer"
         />
         <div className={styles.imageBackground} />
-        <div className={styles.icons}>
-          <Image
-            src="/images/icons/Laptop.png"
-            width="80"
-            height="80"
-            className={`${styles.icon} ${isVisible ? styles.icon0 : ""}`}
-            ref={ref}
-            alt="icon of laptop"
-          />
-          <Image
-            src="/images/icons/camera.png"
-            width="80"
-            height="80"
-            className={`${styles.icon} ${isVisible ? styles.icon1 : ""}`}
-            ref={ref}
-            alt="icon of camera"
-          />
-          <Image
-            src="/images/icons/smartphone.png"
-            width="80"
-            height="80"
-            className={`${styles.icon} ${isVisible ? styles.icon2 : ""}`}
-            ref={ref}
-            alt="icon of smartphone"
-          />
-        </div>
       </div>
     </>
   );
