@@ -1,4 +1,4 @@
-import styles from "@/styles/projectsDescription.module.css";
+  import styles from "@/styles/projectsDescription.module.css";
 import { useEffect, useState } from "react";
 import Project from "./project";
 import Image from "next/image";

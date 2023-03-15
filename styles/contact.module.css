@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  overflow: hidden;
+}
+.email {
+  margin: 10px;
+  width: max-content;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0c8;
+  text-decoration: none;
+  margin: 10px;
+  transition: font-size 1s;
+}
+.link:hover {
+  font-size: 19px;
+}
