@@ -23,8 +23,37 @@
   overflow-y: hidden;
   margin: 0;
 }
+.arrow {
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  transform: rotate(-90deg);
+  animation: updown 3s linear infinite;
+  opacity: 1;
+  transition: opacity 0.35s;
+}
+.hidden {
+  opacity: 0;
+}
 @media only screen and (max-width: 600px) {
   .right {
     width: 100%;
+  }
+}
+@keyframes updown {
+  0% {
+    top: 83%;
+  }
+  10% {
+    top: 83%;
+  }
+  50% {
+    top: 84%;
+  }
+  90% {
+    top: 83%;
+  }
+  100% {
+    top: 83%;
   }
 }
