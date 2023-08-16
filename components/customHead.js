@@ -13,8 +13,9 @@ const CustomHead = () => {
       ></meta>
       <meta
         name="keywords"
-        content="Hannes Scheibelauer,Scheibelauer,Website Erstellen,Web Developer,"
+        content="Hannes Scheibelauer, Scheibelauer, Website Erstellen, Web Developer, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, SEO-optimierte Webseiten, Maßgeschneiderte Websites, E-Commerce Lösungen, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Content-Management-Systeme, Web-Branding, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration, Blog-Integration, Webseiten-Wartung"
       ></meta>
+
       <meta name="robots" content="index, follow"></meta>
       <meta
         property="og:title"

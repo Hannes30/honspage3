@@ -51,7 +51,7 @@ const Flyins = () => {
         const style = divStyles[random];
         divStyles.splice(random, 1);
         return (
-          <div key={index} className={`${styles.itemContainer}`} style={style}>
+          <div key={index} className={styles.itemContainer} style={style}>
             <img
               src={item.icon}
               className={styles.itemImage}
