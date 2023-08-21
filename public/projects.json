@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "DoDo",
-      "description": "DoDo is a ToDo website where users can create an account and enter their ToDos. This project was my first practical application of React.js.",
+      "description": "DoDo ist eine ToDo-Website, auf der Benutzer ein Konto erstellen und ihre Aufgaben eingeben können. Dieses Projekt war meine erste praktische Anwendung von React.js.",
       "img": "/images/dodo.png",
       "icons": ["/images/icons/dodo1.png", "/images/icons/dodo2.png"],
       "backgroundColor1": "#81e9ba",
@@ -11,32 +11,32 @@
         {
           "name": "React",
           "icon": "/images/logos/ReactLogo.png",
-          "description": "Using React for the front-end of my website allowed me to efficiently structure my code and develop with greater speed."
+          "description": "Die Verwendung von React für das Front-End meiner Website ermöglichte es mir, meinen Code effizient zu strukturieren und mit größerer Geschwindigkeit zu entwickeln."
         },
         {
           "name": "Node.js",
           "icon": "/images/logos/NodeLogo.png",
-          "description": "The combination of Node.js and Express.js enabled me to seamlessly transfer data from the front-end to the back-end."
+          "description": "Die Kombination aus Node.js und Express.js ermöglichte es mir, Daten nahtlos vom Front-End zum Back-End zu übertragen."
         },
         {
           "name": "MySql",
           "icon": "/images/logos/MySqlLogo.png",
-          "description": "By utilizing MySql as the database to store user data and task information, it greatly assisted me in the development of a todo platform."
+          "description": "Durch die Verwendung von MySql als Datenbank zur Speicherung von Benutzerdaten und Aufgabeninformationen wurde mir die Entwicklung einer ToDo-Plattform erheblich erleichtert."
         },
         {
           "name": "Heroku",
           "icon": "/images/logos/HerokuLogo.png",
-          "description": "Heroku was instrumental in hosting both the node.js app and backend application for me.."
+          "description": "Heroku spielte eine entscheidende Rolle bei der Bereitstellung sowohl der Node.js-App als auch der Backend-Anwendung."
         }
       ],
-      "emergence": "I have recently begun learning React, and I decided to create my own ToDo platform to aid my learning process. Although building a ToDo platform is a common project for new React programmers, I challenged myself by incorporating User Management functionality into it",
-      "result": "A ToDo Website run on Heroku but currently inactive",
+      "emergence": "Ich habe erst kürzlich mit dem Lernen von React begonnen und mich entschieden, meine eigene ToDo-Plattform zu erstellen, um meinen Lernprozess zu unterstützen. Obwohl das Erstellen einer ToDo-Plattform ein übliches Projekt für neue React-Programmierer ist, habe ich mich herausgefordert, indem ich die Funktionalität zur Benutzerverwaltung integriert habe.",
+      "result": "Eine ToDo-Website, die auf Heroku gehostet wird, derzeit jedoch inaktiv ist.",
       "link": "https://github.com/Hannes30/to-do",
       "linkName": "Github"
     },
     {
       "name": "BudgetBooster",
-      "description": "BudgetBooster is a game I developed using Next.js, is hosted on our own server. It teaches teenagers about wise financial decisions through a fun and engaging gameplay.",
+      "description": "BudgetBooster ist ein Spiel, das ich mit Next.js entwickelt habe und auf unserem eigenen Server gehostet wird. Es vermittelt Teenagern auf spielerische und unterhaltsame Weise kluge finanzielle Entscheidungen.",
       "img": "/images/bb.jpg",
       "icons": ["/images/icons/bb1.png", "/images/icons/bb2.png"],
       "backgroundColor1": "#e9d981",
@@ -45,27 +45,27 @@
         {
           "name": "Next.js",
           "icon": "/images/logos/nextjsLogo.png",
-          "description": "Next.js proved to be the perfect solution for enabling efficient communication between the front-end and back-end during the development of my app, allowing me to work with greater speed and productivity."
+          "description": "Next.js erwies sich als die perfekte Lösung, um die effiziente Kommunikation zwischen Front-End und Back-End während der Entwicklung meiner App zu ermöglichen, was mir eine schnellere und produktivere Arbeit ermöglichte."
         },
         {
           "name": "Chart.js",
           "icon": "/images/logos/chartjsLogo.png",
-          "description": "Chart Js helped me to visualize the Data i got from my Players .It was easy to learn and use."
+          "description": "Chart Js half mir, die Daten, die ich von meinen Spielern erhalten habe, zu visualisieren. Es war einfach zu erlernen und zu verwenden."
         },
         {
           "name": "MySql",
           "icon": "/images/logos/MySqlLogo.png",
-          "description": "For storing the stats of my players, I relied on MySql as my preferred database solution, which proved to be a reliable and efficient choice."
+          "description": "Für die Speicherung der Statistiken meiner Spieler verließ ich mich auf MySql als meine bevorzugte Datenbanklösung, die sich als zuverlässige und effiziente Wahl erwies."
         }
       ],
-      "emergence": "A teacher at my school introduced me to the Kardea Price project, which focuses on teenagers and money management. This sparked an idea for a game where the user can practice managing their spending habits.",
-      "result": "A Website where Player can play the Game and Learn about Money",
+      "emergence": "Ein Lehrer an meiner Schule stellte mir das Kardea Price-Projekt vor, das sich auf Jugendliche und Geldmanagement konzentriert. Dies brachte mich auf die Idee eines Spiels, bei dem der Benutzer das Verwalten seiner Ausgabegewohnheiten üben kann.",
+      "result": "Eine Website, auf der Spieler das Spiel spielen und etwas über Geld lernen können.",
       "link": "https://budget-booster.vitreus.at/",
       "linkName": "BudgetBooster"
     },
     {
       "name": "Furt",
-      "description": "Furt is a Mobile Game about Colors. The Player has to Shoot the color in the right area and avoid obstacles. The Game is made with Unity and runs on Android",
+      "description": "Furt ist ein Mobilspiel über Farben. Der Spieler muss die Farbe im richtigen Bereich abschießen und Hindernissen ausweichen. Das Spiel wurde mit Unity erstellt und läuft auf Android.",
       "img": "/images/furt.png",
       "icons": ["/images/icons/furt1.png", "/images/icons/furt2.png"],
       "backgroundColor1": "#f244d8",
@@ -74,22 +74,22 @@
         {
           "name": "Unity",
           "icon": "/images/logos/UnityLogo.png",
-          "description": "Unity is my preferred game engine for programming games, thanks to its built-in mobile support that made it a perfect fit for creating my mobile game."
+          "description": "Unity ist meine bevorzugte Spielengine für die Programmierung von Spielen, dank ihrer integrierten Unterstützung für Mobilgeräte, die perfekt für die Erstellung meines Mobilspiels geeignet ist."
         },
         {
           "name": "Photoshop",
           "icon": "/images/logos/PSLogo.png",
-          "description": "With Photoshop, I was able to create all of the necessary assets for my games."
+          "description": "Mit Photoshop konnte ich alle erforderlichen Assets für meine Spiele erstellen."
         }
       ],
-      "emergence": "I had some free time and decided to create a mobile game. While I had prior knowledge of Unity, I had never developed a mobile game before. Since I wanted to create a game based on colors, I began programming.",
-      "result": "A Mobile Game Called FURT for Android",
+      "emergence": "Ich hatte etwas Freizeit und beschloss, ein Mobilspiel zu erstellen. Obwohl ich bereits Vorwissen in Unity hatte, hatte ich zuvor noch nie ein Mobilspiel entwickelt. Da ich ein Spiel basierend auf Farben erstellen wollte, begann ich mit der Programmierung.",
+      "result": "Ein Mobilspiel namens FURT für Android.",
       "link": "https://mega.nz/file/BQIQDaCA#2BB5DcKipsTNz0WgulyojwGsuiVGMQVDQ81VsAE02hA",
       "linkName": "Download"
     },
     {
-      "name": "In progress",
-      "description": "I always work on new projects. So be on the lookout for my next project",
+      "name": "In Arbeit",
+      "description": "Ich arbeite ständig an neuen Projekten. Seien Sie also gespannt auf mein nächstes Projekt.",
       "img": "/images/new.png",
       "icons": ["/images/icons/new1.png", "/images/icons/new2.png"],
       "backgroundColor1": "#fff",
@@ -98,28 +98,29 @@
         {
           "name": "Flutter",
           "icon": "/images/logos/FlutterLogo.png",
-          "description": "My nxt Project will use Flutter for the frontend"
+          "description": "Mein nächstes Projekt wird Flutter für das Frontend verwenden"
         },
         {
           "name": "Node.js",
           "icon": "/images/logos/NodeLogo.png",
-          "description": "Node.js will function as my backend"
+          "description": "Node.js wird als mein Backend dienen"
         },
         {
           "name": "MySql",
           "icon": "/images/logos/MySqlLogo.png",
-          "description": "MySql will store the data about my users"
+          "description": "MySql wird die Daten über meine Benutzer speichern"
         },
         {
           "name": "JWT",
           "icon": "/images/logos/jwtLogo.png",
-          "description": "For this Project i will use JWT to authenticate my data"
+          "description": "Für dieses Projekt werde ich JWT verwenden, um meine Daten zu authentifizieren"
         }
       ],
-      "emergence": "My Next Project is still hidden from you.But you can look on my github for Projects ;)",
+      "emergence": "Mein nächstes Projekt ist noch vor Ihnen verborgen. Aber Sie können auf meinem GitHub nach Projekten suchen ;)",
       "result": "___",
       "link": "https://github.com/Hannes30",
       "linkName": "Github"
     }
   ]
 }
+

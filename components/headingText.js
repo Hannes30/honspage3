@@ -9,10 +9,10 @@ const HeadingText = () => {
         Hannes <br /> Scheibelauer
       </div>
       <div className={styles.leftText}>
-        <p>Hello!</p>
-        <p>I&apos;m a 17yr old</p>
+        <p>Hallo!</p>
+        <p>Ich bin ein</p>
         <p className={styles.leftWrite}>Web developer</p>
-        <p>from Austria</p>
+        <p>aus Österreich</p>
       </div>
     </div>
   );

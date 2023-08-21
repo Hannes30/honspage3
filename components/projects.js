@@ -20,7 +20,7 @@ const Projects = () => {
   }
   return (
     <div className={styles.main}>
-      <div className={styles.heading}>Projects</div>
+      <div className={styles.heading}>Projekte</div>
       <div className={styles.mainCards}>
         {projects.map((item, index) => {
           return (

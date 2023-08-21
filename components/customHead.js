@@ -27,7 +27,7 @@ const CustomHead = () => {
       ></meta>
       <meta
         property="og:image"
-        content="https://hannes-scheibelauer.com/images/logo.png"
+        content="https://hannes-scheibelauer.at/images/logo.png"
       ></meta>
       <script
         async

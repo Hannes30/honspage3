@@ -6,13 +6,7 @@ const About = () => {
       <div className={styles.left}>
         <div className={styles.heading}>About me</div>
         <div className={styles.text}>
-          Hello! I&apos;m a 17 year-old student currently studying at IT-HTL
-          Ybbs. I have a passion for turning my ideas into reality through
-          coding. My specialties include using JavaScript for web development,
-          Adobe products for design, and Flutter for mobile development. During
-          my free time, I also enjoy developing Unity games. I&apos;m constantly
-          exploring new technologies and expanding my skill set and I&apos;m
-          excited to see where my passion for coding takes me in the future.
+        Hallo! Ich bin ein 17-jähriger Schüler, der derzeit die IT-HTL Ybbs besucht. Ich habe eine Leidenschaft dafür, meine Ideen durch das Programmieren in die Realität umzusetzen. Meine Spezialgebiete umfassen die Verwendung von JavaScript für die Webentwicklung, Adobe-Produkte für das Design und Flutter für die Entwicklung von mobilen Anwendungen. In meiner Freizeit entwickle ich auch gerne Unity-Spiele. Ich erkunde ständig neue Technologien und erweitere mein Fähigkeiten, und ich bin gespannt zu sehen, wohin mich meine Leidenschaft für das Programmieren in der Zukunft führen wird.
         </div>
       </div>
       <div className={styles.right}>
