@@ -85,7 +85,7 @@ const Project = (props) => {
       <div className={styles.textArea}>
         <div className={styles.text}>{props.children}</div>
         <Link href={"./" + props.name.toLowerCase()} className={styles.button}>
-          more
+          explore
         </Link>
       </div>
       {icons}
