@@ -7,9 +7,9 @@ import Link from "next/link";
 const Description = ({ project }) => {
   return (
     <div className={styles.main}>
-      <div className={styles.heading}>Creation</div>
+      <div className={styles.heading}>Erstellung</div>
       <div> {project.emergence}</div>
-      <div className={styles.heading}>Result</div>
+      <div className={styles.heading}>Ergebnis</div>
       <div> {project.result}</div>
       <Link href={project.link} className={styles.link} target="_blank">
         {project.linkName}
