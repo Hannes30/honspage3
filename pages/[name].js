@@ -1,7 +1,5 @@
 import React from "react";
-import { useRouter } from "next/router";
 import projects from "../public/projects.json";
-import Image from "next/image";
 import styles from "@/styles/projectsPage.module.css";
 import ProjectTop from "@/components/projectsTop";
 import CustomHead from "@/components/customHead";
