@@ -1,5 +1,6 @@
 import styles from "@/styles/flyins.module.css";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Flyins = () => {
   let random = 0;
@@ -52,10 +53,12 @@ const Flyins = () => {
         divStyles.splice(random, 1);
         return (
           <div key={index} className={styles.itemContainer} style={style}>
-            <img
+            <Image
               src={item.icon}
               className={styles.itemImage}
               alt={`${item.alt}`}
+              width="50"
+              height="50"
             />
           </div>
         );
