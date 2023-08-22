@@ -2,7 +2,7 @@ import styles from "@/styles/contact.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const Contact = ({ project }) => {
+const Contact = () => {
   return (
     <div className={styles.main}>
       <div className={styles.email}>
@@ -13,10 +13,10 @@ const Contact = ({ project }) => {
           alt="email Icon"
         ></Image>
         <Link
-          href="mailto:hannes.scheibelauer@outlook.com"
+          href="mailto:kontakt@hannes-scheibelauer.at"
           className={styles.link}
         >
-          hannes.scheibelauer@outlook.com
+          kontakt@hannes-scheibelauer.at
         </Link>
       </div>
     </div>

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className={styles.main}>
       <div className={styles.left}>
-        <div className={styles.heading}>About me</div>
+        <div className={styles.heading}>Über mich</div>
         <div className={styles.text}>
           Hallo! Ich bin ein 17-jähriger Schüler, der derzeit die IT-HTL Ybbs
           besucht. Ich habe eine Leidenschaft dafür, meine Ideen durch das

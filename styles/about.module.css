@@ -17,11 +17,11 @@
 }
 .heading {
   font-size: 48px;
-  color: #0c8;
+  color: #00A36D;
   font-weight: 600;
   width: max-content;
   padding: 10px;
-  border-bottom: #0c8 1px solid;
+  border-bottom: #00A36D 1px solid;
   margin-bottom: 50px;
 }
 .text {
