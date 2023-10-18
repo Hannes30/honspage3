@@ -12,7 +12,7 @@ const About = () => {
           umfassen die Verwendung von JavaScript für die Webentwicklung,
           Adobe-Produkte für das Design und Flutter für die Entwicklung von
           mobilen Anwendungen. In meiner Freizeit entwickle ich auch gerne
-          Unity-Spiele. Ich erkunde ständig neue Technologien und erweitere mein
+          Unity-Spiele. Ich erkunde ständig neue Technologien und erweitere meine
           Fähigkeiten, und ich bin gespannt zu sehen, wohin mich meine
           Leidenschaft für das Programmieren in der Zukunft führen wird.
         </div>
