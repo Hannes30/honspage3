@@ -50,13 +50,16 @@ const Project = (props) => {
   if (unset) {
     setUnset(false);
     if (props.value == 0) {
-      setClassMode(styles.dodo);
+      setClassMode(styles.hofcafe);
     }
     if (props.value == 1) {
       setClassMode(styles.bb);
     }
     if (props.value == 2) {
       setClassMode(styles.furt);
+    }
+    if (props.value == 3) {
+      setClassMode(styles.explore);
     }
   }
   function setActive() {

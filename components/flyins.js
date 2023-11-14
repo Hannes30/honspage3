@@ -15,7 +15,8 @@ const Flyins = () => {
       { icon: "/images/logos/UnityLogo.png", alt: "Unity Logo" },
       { icon: "/images/logos/CLogo.png", alt: "C Logo" },
       { icon: "/images/logos/NextjsLogo.png", alt: "Next.js Logo" },
-      { icon: "/images/logos/BlenderLogo.png", alt: "Blender Logo" },
+      { icon: "/images/logos/SvelteLogo.png", alt: "Svelte Logo" },
+      { icon: "/images/logos/firebaseLogo.jpg", alt: "Firebase Logo" },
     ],
   };
   useEffect(() => {

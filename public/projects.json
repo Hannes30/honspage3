@@ -1,38 +1,38 @@
 {
   "projects": [
     {
-      "name": "DoDo",
-      "description": "DoDo ist eine ToDo-Website, auf der Benutzer ein Konto erstellen und ihre Aufgaben eingeben können. Dieses Projekt war meine erste praktische Anwendung von React.js.",
-      "img": "/images/dodo.png",
-      "icons": ["/images/icons/dodo1.png", "/images/icons/dodo2.png"],
-      "backgroundColor1": "#81e9ba",
-      "backgroundColor2": "#44f2b8",
+      "name": "Hofcafe Wolfpassing",
+      "description": "Die Website für das Hofcafe Schloss Wolfpassing von Elfriede Halbartschlagerl.Design,Bilder und Entwicklung wurde von mir übernommen",
+      "img": "/images/Hofcafe.png",
+      "icons": ["/images/icons/beer.png", "/images/icons/coffee.png"],
+      "backgroundColor1": "#2fb1c1",
+      "backgroundColor2": "#fff",
       "usedTechnologies": [
         {
-          "name": "React",
-          "icon": "/images/logos/ReactLogo.png",
-          "description": "Die Verwendung von React für das Front-End meiner Website ermöglichte es mir, meinen Code effizient zu strukturieren und mit größerer Geschwindigkeit zu entwickeln."
+          "name": "Next.js",
+          "icon": "/images/logos/nextjsLogo.png",
+          "description": "Next.js ist mein bevorzugtes JS Framework. Es half deutlich darin die SEO zu optimieren"
         },
         {
-          "name": "Node.js",
+          "name": "Strapi.js",
           "icon": "/images/logos/NodeLogo.png",
-          "description": "Die Kombination aus Node.js und Express.js ermöglichte es mir, Daten nahtlos vom Front-End zum Back-End zu übertragen."
-        },
-        {
-          "name": "MySql",
-          "icon": "/images/logos/MySqlLogo.png",
-          "description": "Durch die Verwendung von MySql als Datenbank zur Speicherung von Benutzerdaten und Aufgabeninformationen wurde mir die Entwicklung einer ToDo-Plattform erheblich erleichtert."
+          "description": "Strapi und Next.js sind eine perfekte Kombination es exestiert immer noch die Freiheit alles selber zu gestalten jedoch auch ein CMS für die Betreuer"
         },
         {
           "name": "Heroku",
           "icon": "/images/logos/HerokuLogo.png",
-          "description": "Heroku spielte eine entscheidende Rolle bei der Bereitstellung sowohl der Node.js-App als auch der Backend-Anwendung."
+          "description": "Strapi braucht eine Online Datenbank und muss gehostet werden mit Heroku ist das beides möglich"
+        },
+        {
+          "name": "AWS S3",
+          "icon": "/images/logos/awsLogo.png",
+          "description": "Die Hochgeladenen Bilder müssen in einen Amazon S3 Bucket gespeichert werden da die Speicherung in der HEroku Datenbank nicht optimal ist"
         }
       ],
-      "emergence": "Ich habe erst kürzlich mit dem Lernen von React begonnen und mich entschieden, meine eigene ToDo-Plattform zu erstellen, um meinen Lernprozess zu unterstützen. Obwohl das Erstellen einer ToDo-Plattform ein übliches Projekt für neue React-Programmierer ist, habe ich mich herausgefordert, indem ich die Funktionalität zur Benutzerverwaltung integriert habe.",
-      "result": "Eine ToDo-Website, die auf Heroku gehostet wird, derzeit jedoch inaktiv ist.",
-      "link": "https://github.com/Hannes30/to-do",
-      "linkName": "Github"
+      "emergence": "Bei Meinen Praktikum im Sommer traf ich die Chefin des Hofcafe und wir machten uns einen Termin für die Erstbesprechung aus",
+      "result": "DIe Website für das Hofcafe Wolfpassing + CMS",
+      "link": "https://schlosswolfpassing.at/",
+      "linkName": "Hofacfe Schloss Wolfpassing"
     },
     {
       "name": "BudgetBooster",
@@ -45,7 +45,7 @@
         {
           "name": "Next.js",
           "icon": "/images/logos/nextjsLogo.png",
-          "description": "Next.js erwies sich als die perfekte Lösung, um die effiziente Kommunikation zwischen Front-End und Back-End während der Entwicklung meiner App zu ermöglichen, was mir eine schnellere und produktivere Arbeit ermöglichte."
+          "description": "Next.js erwies sich als die perfekte Lösung, um die effiziente kommunikation zwischen Front-End und Back-End während der Entwicklung meiner App zu ermöglichen, was mir eine schnellere und produktivere Arbeit ermöglichte."
         },
         {
           "name": "Chart.js",
@@ -53,7 +53,7 @@
           "description": "Chart Js half mir, die Daten, die ich von meinen Spielern erhalten habe, zu visualisieren. Es war einfach zu erlernen und zu verwenden."
         },
         {
-          "name": "MySql",
+          "name": "MYSQL",
           "icon": "/images/logos/MySqlLogo.png",
           "description": "Für die Speicherung der Statistiken meiner Spieler verließ ich mich auf MySql als meine bevorzugte Datenbanklösung, die sich als zuverlässige und effiziente Wahl erwies."
         }
@@ -74,7 +74,7 @@
         {
           "name": "Unity",
           "icon": "/images/logos/UnityLogo.png",
-          "description": "Unity ist meine bevorzugte Spielengine für die Programmierung von Spielen, dank ihrer integrierten Unterstützung für Mobilgeräte, die perfekt für die Erstellung meines Mobilspiels geeignet ist."
+          "description": "Unity ist meine bevorzugte Spiel-Engine für die Programmierung von Spielen, dank ihrer integrierten Unterstützung für Mobilgeräte, die perfekt für die Erstellung meines Mobilspiels geeignet ist."
         },
         {
           "name": "Photoshop",
@@ -88,39 +88,33 @@
       "linkName": "Download"
     },
     {
-      "name": "In Arbeit",
-      "description": "Ich arbeite ständig an neuen Projekten. Seien Sie also gespannt auf mein nächstes Projekt.",
-      "img": "/images/new.png",
-      "icons": ["/images/icons/new1.png", "/images/icons/new2.png"],
-      "backgroundColor1": "#fff",
-      "backgroundColor2": "#eee",
+      "name": "ExploreHTL",
+      "description": "Explore HTL ist ein Spiel in dem die Spieler verschieden Items in der IT-HTL Ybbs sammeln können. Das Spiel wurde für den Infotag 2023 entwickelt",
+      "img": "/images/explorehtl.png",
+      "icons": ["/images/icons/utensils.png", "/images/icons/db_uebung.png"],
+      "backgroundColor1": "#00aacc",
+      "backgroundColor2": "#00d8a2",
       "usedTechnologies": [
         {
-          "name": "Flutter",
-          "icon": "/images/logos/FlutterLogo.png",
-          "description": "Mein nächstes Projekt wird Flutter für das Frontend verwenden"
+          "name": "Unity",
+          "icon": "/images/logos/UnityLogo.png",
+          "description": "Unity macht AR entwicklung ohne rießigen Aufwand möglich."
         },
         {
-          "name": "Node.js",
-          "icon": "/images/logos/NodeLogo.png",
-          "description": "Node.js wird als mein Backend dienen"
+          "name": "Firebase",
+          "icon": "/images/logos/firebaseLogo.jpg",
+          "description": "Die Daten der Spieler wurde in Firebase Firestore gespeichert"
         },
         {
-          "name": "MySql",
-          "icon": "/images/logos/MySqlLogo.png",
-          "description": "MySql wird die Daten über meine Benutzer speichern"
-        },
-        {
-          "name": "JWT",
-          "icon": "/images/logos/jwtLogo.png",
-          "description": "Für dieses Projekt werde ich JWT verwenden, um meine Daten zu authentifizieren"
+          "name": "Svelte",
+          "icon": "/images/logos/SvelteLogo.png",
+          "description": "Svelte wurde für das Leaderboard verwendet. Firebase konnte sehr leicht mit Svelte verbunden werden"
         }
       ],
-      "emergence": "Mein nächstes Projekt ist noch vor Ihnen verborgen. Aber Sie können auf meinem GitHub nach Projekten suchen ;)",
-      "result": "___",
+      "emergence": "Für den Infotag 2023 haben Felix Blaimauer und ich gemeinsam an einem Projekt gearbeitet. Mit unserem ARGame haben wir uns einer spannenden Herausforderung gestellt",
+      "result": "Explore HTl IOS und Android App + Online Leaderboard",
       "link": "https://github.com/Hannes30",
       "linkName": "Github"
     }
   ]
 }
-
