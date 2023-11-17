@@ -15,7 +15,7 @@
         },
         {
           "name": "Strapi.js",
-          "icon": "/images/logos/NodeLogo.png",
+          "icon": "/images/logos/strapi.png",
           "description": "Strapi und Next.js sind eine perfekte Kombination es exestiert immer noch die Freiheit alles selber zu gestalten jedoch auch ein CMS für die Betreuer"
         },
         {
@@ -30,9 +30,9 @@
         }
       ],
       "emergence": "Bei Meinen Praktikum im Sommer traf ich die Chefin des Hofcafe und wir machten uns einen Termin für die Erstbesprechung aus",
-      "result": "DIe Website für das Hofcafe Wolfpassing + CMS",
+      "result": "Die Website für das Hofcafe Wolfpassing + CMS",
       "link": "https://schlosswolfpassing.at/",
-      "linkName": "Hofacfe Schloss Wolfpassing"
+      "linkName": "Hofcafe Schloss Wolfpassing"
     },
     {
       "name": "BudgetBooster",
@@ -112,7 +112,7 @@
         }
       ],
       "emergence": "Für den Infotag 2023 haben Felix Blaimauer und ich gemeinsam an einem Projekt gearbeitet. Mit unserem ARGame haben wir uns einer spannenden Herausforderung gestellt",
-      "result": "Explore HTl IOS und Android App + Online Leaderboard",
+      "result": "Explore HTL Android App + Online Leaderboard",
       "link": "https://github.com/Hannes30",
       "linkName": "Github"
     }
