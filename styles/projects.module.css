@@ -14,9 +14,10 @@
 }
 
 .textArea {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 25px;
-  margin: 10px;
+  margin: 14px;
   margin-bottom: 40px;
   width: 70%;
 }

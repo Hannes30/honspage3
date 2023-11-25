@@ -3,3 +3,10 @@
   height: auto;
   position: relative;
 }
+@media only screen and (max-width: 1159px) {
+  .image {
+    width: 60vw;
+    height: auto;
+    position: relative;
+  }
+}

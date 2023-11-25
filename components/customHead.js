@@ -33,7 +33,7 @@ const CustomHead = () => {
         async
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
       ></script>
-       <script
+      <script
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
